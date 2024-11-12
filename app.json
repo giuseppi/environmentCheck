@@ -13,7 +13,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.giuseppi.environmentCheck"
     },
     "android": {
       "adaptiveIcon": {
@@ -31,6 +32,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "76034537-b72a-4d4e-a953-9bba50da80ea"
+      }
+    },
+    "owner": "giuseppi"
   }
 }
